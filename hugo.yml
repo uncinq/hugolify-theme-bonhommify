@@ -1,0 +1,66 @@
+params:
+
+  # Grid
+  column: 
+    mobile: 1
+    tablet: 48
+    desktop: 48
+  container:
+    desktop: 1440
+    mobile: 375
+  gap:
+    desktop: 0
+    mobile: 0
+  gutter:
+    desktop: 0
+    mobile: 30
+
+  # Map
+  tile: 3
+
+  # TOC
+  toc:
+    expand: none
+    drawer:
+      position: start
+
+  # Image
+  persons:
+    image:
+      desktop: 720x960
+      mobile: 375x500
+    thumbnail:
+      desktop: 225x300
+      mobile: 315x420
+
+  # Admin
+  admin:
+    fields:
+      hero:
+        fields:
+          - surtitle
+          - title
+          - text_markdown
+          - ctas
+          - image:
+              fields:
+                - image_src
+                - image_src_mobile
+                - is_background
+          - ui:
+              fields:
+                - align
+                - vertical_align
+                - theme
+                - is_darken
+
+
+
+# Hugo
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: layouts
+      target: layouts
+
