@@ -1,0 +1,14 @@
+@layer layouts {
+  .container-list,
+  .container-single {
+    @media (--sm) {
+      padding-inline: var(--col-container);
+    }
+    @media (--md) {
+      padding-inline: var(--col-large);
+    }
+    @media (--lg) {
+      padding-inline: var(--col-medium);
+    }
+  }
+}

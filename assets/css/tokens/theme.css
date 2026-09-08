@@ -1,0 +1,26 @@
+/* Bonhommify */
+@layer tokens {
+  :root {
+    --col: 4.1666667vw;
+    --col-half: 2.0833333vw;
+    --col-container: var(--col);
+    --col-large: 8.3333334vw;
+    --col-medium: 16.6666667vw;
+    --container-max-width-desktop: 100%;
+    --gap: var(--spacing-sm);
+    --gutter: var(--col-large);
+    --items-gap: 1.25rem;
+    --items-row-gap: 2.5rem;
+    --header-padding-inline: var(--col);
+    --spacing-fluid-2xl: clamp(4.5rem, 3.4437rem + 4.5070vw, 7.5rem); /* 72 -> 120 */
+    --spacing-section: var(--spacing-fluid-2xl);
+    --editorial-gap: var(--spacing-fluid-2xl);
+    --person-media-border-radius: 0;
+    --person-media-max-width: 100%;
+
+    @media (--sm) {
+      --gutter: 0 !important;
+      --breadcrumb-padding-inline: var(--col-container);
+    }
+  }
+}
