@@ -1,34 +1,35 @@
 /* layouts/grid.css */
 @layer layouts {
-  .grid {
+  .container-single {
+    .grid {
 
-    @media (--sm) { --columns: calc(var(--columns-tablet) / 12 * 11); }
-    @media (--md) { --columns: calc(var(--columns-tablet-wide) / 6 * 5); }
-    @media (--lg) { --columns: calc(var(--columns-laptop) / 3 * 2); }
-    @media (--xl) { --columns: calc(var(--columns-desktop) / 3 * 2); }
+      @media (--sm) { --columns: calc(var(--columns-tablet) / 12 * 11); }
+      @media (--md) { --columns: calc(var(--columns-tablet-wide) / 6 * 5); }
+      @media (--lg) { --columns: calc(var(--columns-laptop) / 3 * 2); }
+      @media (--xl) { --columns: calc(var(--columns-desktop) / 3 * 2); }
 
-    
-    @media (--md) {
-      .featured-image {
-        --grid-column: span calc(var(--columns) / 3);
+      @media (--md) {
+        .featured-image {
+          --grid-column: span calc(var(--columns) / 3);
+        }
+        .content {
+          --grid-column: span calc(var(--columns) / 6 * 4);
+        }
+        .content:first-child:last-child {
+          --grid-column: var(--span-full);
+        }
+        .sidebar {
+          --grid-column: span calc(var(--columns) / 6 * 1.75) / -1;
+        }
+        .toc {
+          --grid-column: var(--span-full);
+          order: -1;
+        }
+        .heading {
+          order: -1;
+        }
       }
-      .content {
-        --grid-column: span calc(var(--columns) / 6 * 4);
-      }
-      .content:first-child:last-child {
-        --grid-column: var(--span-full);
-      }
-      .sidebar {
-        --grid-column: span calc(var(--columns) / 6 * 1.75) / -1;
-      }
-      .toc {
-        --grid-column: var(--span-full);
-        order: -1;
-      }
-      .heading {
-        order: -1;
-      }
+
     }
-
   }
 }
