@@ -1,5 +1,6 @@
 /* layouts/grid.css */
 @layer layouts {
+  .container-list,
   .container-single {
     .grid {
 
