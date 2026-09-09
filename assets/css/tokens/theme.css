@@ -14,7 +14,7 @@
     --header-padding-inline: var(--col);
     --spacing-fluid-2xl: clamp(4.5rem, 3.4437rem + 4.5070vw, 7.5rem); /* 72 -> 120 */
     --spacing-section: var(--spacing-fluid-2xl);
-    --editorial-gap: var(--spacing-fluid-2xl);
+    --editorial-gap: var(--spacing-fluid-md);
     --person-media-border-radius: 0;
     --person-media-max-width: 100%;
 
