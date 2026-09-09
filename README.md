@@ -1,1 +1,1 @@
-# hugolify-theme-bonhomme
+# hugolify-theme-bonhommify

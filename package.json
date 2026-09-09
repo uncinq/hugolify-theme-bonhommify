@@ -1,0 +1,26 @@
+{
+  "name": "hugolify-theme-bonhommify",
+  "version": "0.0.0",
+  "description": "Hugolify theme — Bonhomme design layer (grid, container, design tokens overrides).",
+  "homepage": "https://github.com/uncinq/hugolify-theme-bonhommify#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uncinq/hugolify-theme-bonhommify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uncinq/hugolify-theme-bonhommify/issues"
+  },
+  "author": {
+    "name": "Un Cinq",
+    "url": "https://uncinq.dev/"
+  },
+  "keywords": [
+    "hugolify",
+    "hugo",
+    "hugo-theme",
+    "design-system"
+  ],
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module"
+}
