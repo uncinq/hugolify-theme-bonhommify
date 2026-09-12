@@ -1,22 +1,27 @@
 /* Bonhommify */
 @layer tokens {
   :root {
+
+    /* Layouts */
     --col: 4.1666667vw;
     --col-half: 2.0833333vw;
     --col-container: var(--col);
     --col-large: 8.3333334vw;
     --col-medium: 16.6666667vw;
     --container-max-width-desktop: 100%;
+
+    /* Generic */
+    --editorial-gap: var(--spacing-fluid-md);
     --gap: var(--spacing-sm);
+    --gradient-darken-stop: 50%;
     --gutter: var(--col-large);
+    --header-padding-inline: var(--col);
     --items-gap: 1.25rem;
     --items-row-gap: 2.5rem;
-    --header-padding-inline: var(--col);
-    --spacing-fluid-2xl: clamp(4.5rem, 3.4437rem + 4.5070vw, 7.5rem); /* 72 -> 120 */
-    --spacing-section: var(--spacing-fluid-2xl);
-    --editorial-gap: var(--spacing-fluid-md);
     --person-media-border-radius: 0;
     --person-media-max-width: 100%;
+    --spacing-fluid-2xl: clamp(4.5rem, 3.4437rem + 4.5070vw, 7.5rem); /* 72 -> 120 */
+    --spacing-section: var(--spacing-fluid-2xl);
 
     @media (--sm) {
       --gutter: 0 !important;
