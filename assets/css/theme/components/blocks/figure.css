@@ -1,0 +1,7 @@
+@layer components {
+  .block-figure {
+    figcaption {
+      --gutter: var(--col);
+    }
+  }
+}

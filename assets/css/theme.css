@@ -1,2 +1,5 @@
+@import './theme/components/blocks/editorial.css';
+@import './theme/components/blocks/figure.css';
+@import './theme/components/block-layout.css';
 @import './theme/layout/container.css';
 @import './theme/layout/grid.css';

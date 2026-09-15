@@ -1,0 +1,13 @@
+@layer components {
+  .block-editorial {
+    &.block-full {
+      .content {
+        --gutter: var(--col);
+      }
+      .heading,
+      .footing {
+        padding-inline: 0;
+      }
+    }
+  }
+}
