@@ -29,9 +29,11 @@ params:
     image:
       desktop: 720x960
       mobile: 375x500
+      sizes: 100vw, 50vw
     thumbnail:
       desktop: 225x300
       mobile: 315x420
+      scrollsnap: 222x297
 
   # Admin
   admin:
