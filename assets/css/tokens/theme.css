@@ -18,6 +18,8 @@
     --header-padding-inline: var(--col);
     --items-gap: 1.25rem;
     --items-row-gap: 2.5rem;
+    --max-width-heading: 60rem;
+    --max-width-paragraph: 60rem;
     --person-media-border-radius: 0;
     --person-media-max-width: 100%;
     --spacing-fluid-2xl: clamp(4.5rem, 3.4437rem + 4.5070vw, 7.5rem); /* 72 -> 120 */
