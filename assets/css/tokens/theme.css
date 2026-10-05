@@ -8,6 +8,7 @@
     --col-container: var(--col);
     --col-large: 8.3333334vw;
     --col-medium: 16.6666667vw;
+    --col-small: 25vw;
     --container-max-width-desktop: 100%;
 
     /* Generic */
