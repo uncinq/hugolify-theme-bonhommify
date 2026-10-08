@@ -16,7 +16,6 @@
     --gap: var(--spacing-sm);
     --gradient-darken-stop: 50%;
     --gutter: var(--col-large);
-    --header-padding-inline: var(--col);
     --items-gap: 1.25rem;
     --items-row-gap: 2.5rem;
     --max-width-heading: 60rem;
@@ -29,6 +28,7 @@
     @media (--sm) {
       --gutter: 0 !important;
       --breadcrumb-padding-inline: var(--col-container);
+      --header-padding-inline: var(--col-container);
     }
   }
 }
