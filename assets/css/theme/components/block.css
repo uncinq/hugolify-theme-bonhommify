@@ -1,0 +1,13 @@
+@layer components {
+  /* The design system republishes the carousel bleed as
+     (100vw - --size-desktop) / 2 + --gutter, assuming the container caps at
+     --size-desktop. Bonhommify never caps it (--container-max-width-desktop:
+     100% in tokens/theme.css), so the content edge always sits one gutter from
+     the screen edge, and that formula overshoots the viewport past 1600px.
+     Same selector as the design system, imported after it. */
+  .block {
+    .container .items:is([class^="scrollsnap"], [class*=" scrollsnap"]) {
+      --container-bleed: var(--gutter);
+    }
+  }
+}
