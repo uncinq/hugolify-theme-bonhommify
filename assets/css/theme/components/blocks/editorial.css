@@ -4,10 +4,6 @@
       .content {
         --gutter: var(--col);
       }
-      .heading,
-      .footing {
-        padding-inline: 0;
-      }
     }
   }
 }

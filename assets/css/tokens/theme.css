@@ -12,6 +12,7 @@
     --container-max-width-desktop: 100%;
 
     /* Generic */
+    --block-full-heading-padding-inline: var(--col);
     --editorial-gap: var(--spacing-fluid-md);
     --gap: var(--spacing-sm);
     --gradient-darken-stop: 50%;

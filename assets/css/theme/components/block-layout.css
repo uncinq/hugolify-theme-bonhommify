@@ -1,8 +1,0 @@
-@layer components {
-  .block-full {
-    .heading,
-    .footing {
-      padding-inline: var(--col);
-    }
-  }
-}
