@@ -12,7 +12,7 @@
     --container-max-width-desktop: 100%;
 
     /* Generic */
-    --block-full-heading-padding-inline: var(--col);
+    --block-full-heading-padding-inline: var(--gutter);
     --editorial-gap: var(--spacing-fluid-md);
     --gap: var(--spacing-sm);
     --gradient-darken-stop: 50%;
@@ -28,6 +28,7 @@
 
     @media (--sm) {
       --gutter: 0 !important;
+      --block-full-heading-padding-inline: var(--col);
       --breadcrumb-padding-inline: var(--col-container);
       --header-padding-inline: var(--col-container);
     }
