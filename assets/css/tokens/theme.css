@@ -27,7 +27,7 @@
     --spacing-section: var(--spacing-fluid-2xl);
 
     @media (--sm) {
-      --gutter: 0 !important;
+      --gutter: 0px !important;
       --block-full-heading-padding-inline: var(--col);
       --breadcrumb-padding-inline: var(--col-container);
       --header-padding-inline: var(--col-container);
